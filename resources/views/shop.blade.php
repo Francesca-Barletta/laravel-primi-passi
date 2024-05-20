@@ -1,30 +1,25 @@
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 <body>
-    <header>
-        <h2 class="logo">Laravel</h2>
-        <ul>
+<header>
+        <h2 class="logo">Shop</h2>
+        <ul class="header-menu">
             <li><a href="/contacts">contacts</a></li>
             <li><a href="/blog">blog</a></li>
             <li><a href="/shop">shop</a></li>
             <li><a href="/login">login</a></li>
         </ul>
     </header>
-    <main>
-    <h1>HELLO Laravel!</h1>
-    <p>This is my first proj with Laravel =)</p>
-    </main>
-  
+<ul class="items">
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+    <li>item4</li>
+    <li>item5</li>
+    <li>item6</li>
+</ul>
+<a href="/" class="home">home</a>
 </body>
-</html>
+
+
 <style>
     body{
         font-family: helvetica;
@@ -55,16 +50,22 @@
         color:white;
         font-size:30px;
     }
-    ul{
+    .header-menu{
         display:flex;
         justify-content:flex-end;
         gap:14px;
 
     }
-    main{
-        text-align:center;
+    .items{
+        margin:50px;
     }
-    h1{
-        margin:100px;
+    p{
+        margin:30px;
+    }
+    .home{
+        background-color:green;
+        padding:12px;
+        border-radius:6px;
+        margin-left:30px;
     }
 </style>

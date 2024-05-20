@@ -1,16 +1,7 @@
 
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 <body>
     <header>
-        <h2 class="logo">Laravel</h2>
+        <h2 class="logo">Contacts</h2>
         <ul>
             <li><a href="/contacts">contacts</a></li>
             <li><a href="/blog">blog</a></li>
@@ -18,13 +9,10 @@
             <li><a href="/login">login</a></li>
         </ul>
     </header>
-    <main>
-    <h1>HELLO Laravel!</h1>
-    <p>This is my first proj with Laravel =)</p>
-    </main>
-  
+    <p>This is the contacts page</p>
+    
+<a href="/" class="home">home</a>
 </body>
-</html>
 <style>
     body{
         font-family: helvetica;
@@ -61,10 +49,13 @@
         gap:14px;
 
     }
-    main{
-        text-align:center;
+    p{
+        margin:30px;
     }
-    h1{
-        margin:100px;
+    .home{
+        background-color:green;
+        padding:12px;
+        border-radius:6px;
+        margin-left:30px;
     }
 </style>
